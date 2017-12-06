@@ -1,7 +1,7 @@
 const Product = require('./Product')
 
 Product.deleteMany()
-  .then() => {
+  .then(() => {
     console.log('Database has been wiped.')
   })
   .catch((error) => {
